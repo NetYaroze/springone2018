@@ -22,7 +22,7 @@ public class DecodeTest {
         Response response = (Response)object;
         assertThat(
             response.getAssertions().get(0).getSubject().getPrincipal().getValue(),
-            equalTo("pet_parker")
+            equalTo("peter_parker")
         );
     }
 
